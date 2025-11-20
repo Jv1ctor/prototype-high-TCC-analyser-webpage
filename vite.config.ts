@@ -4,7 +4,7 @@ import path from "path"
 
 export default defineConfig({
   plugins: [react()],
-  base: "./",
+  base: "/prototype-high-TCC-analyser-webpage",
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx", ".json"],
     alias: {
